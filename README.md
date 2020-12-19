@@ -1,10 +1,10 @@
-ChatBot-PyTorch-NLP-DeepLearning
-==============================
+# Chat Bot with PyTorch, Natural Language Processing (NLP), and Deep Learning
 
-Example chat bot that uses deep learning to help answer questions
+Example helper escalation chat bot that trains on deep learning models to help answer questions.
 
-Project Organization
-------------
+Starter code followed the video tutorials at: https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -51,7 +51,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
---------
+---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
