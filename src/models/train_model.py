@@ -1,4 +1,4 @@
-from nltk_utils import tokenize, stem, bag_of_words
+from src.features.build_features import tokenize, stem, bag_of_words
 from os.path import dirname as dir
 import json
 import numpy as np

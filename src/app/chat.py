@@ -1,8 +1,8 @@
 import random
 import json
 import torch
-from predict_model import NeuralNet
-from nltk_utils import bag_of_words, tokenize
+from src.features.build_features import bag_of_words, tokenize
+from src.models.predict_model import NeuralNet
 from os.path import dirname as dir
 
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

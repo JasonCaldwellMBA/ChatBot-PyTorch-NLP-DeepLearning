@@ -1,6 +1,6 @@
 # Chat Bot with PyTorch, Natural Language Processing (NLP), and Deep Learning
 
-Example helper escalation chat bot that trains on deep learning models to help answer questions.
+Helper escalation chat bot that trains on deep learning models to help answer questions.
 
 Starter code followed the video tutorials at: https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg
 
