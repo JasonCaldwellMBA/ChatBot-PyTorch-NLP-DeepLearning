@@ -1,3 +1,25 @@
-2020-12-27 17:59:29.667087,no,"Sorry, I do not understand. Is there another way you can ask the question?",-1
-2020-12-27 17:59:30.841843,yes,"Sorry, I do not understand. Is there another way you can ask the question?",-1
-2020-12-27 17:59:36.944239,deployment,Application are updated at '.../deployment/server/product/client'. There is additional documentation about this process at '.../product/deployment'.,1
+2020-12-27 21:29:25.240121,How can I add a new feature?,Users can submit enhancement requests at '.../product_ideas.com'.,1
+2020-12-27 21:29:48.687221,Can you help me fix this null pointer,This is caused by a missing value in setup. To fix: login to app > screen 1 > edit > change setting 18 > save > retry > the error should no longer happen.,1
+2020-12-27 21:30:09.487626,how does this work,"Take a look at '.../product_ideas.com' to see if this request already exists. If not, please submit a new one.",5
+2020-12-27 21:30:44.688218,how can i talk to a real person,Billable work orders are available on request. To get one for your application please contact the sales team at ...sales@company.com.,5
+2020-12-27 21:31:27.304576,Fix caused by: one of several different types of messages that have a stack trace,Sorry about that. This is an unknown issue. Please submit a ticket at '.../issue_tracker/website' so that it can be followed up on. ,2
+2020-12-27 21:31:54.375885,I have an error on line number 680,This has been fixed in version 2020.XX. Please update your application.,1
+2020-12-27 21:32:10.568496,where can i see what was fixed last week,Release and patch notes are available at '.../code_version/release_version/patch_notes'.,1
+2020-12-27 21:32:47.848581,want to ask a question. but not sure how to ask it,Users can submit enhancement requests at '.../product_ideas.com'.,4
+2020-12-27 21:33:04.711986,how can we update our application?,Application are updated at '.../deployment/server/product/client'. There is additional documentation about this process at '.../product/deployment'.,1
+2020-12-27 21:33:34.584200,What code version do you recommend,Have a nice day. Type 'quit' to exit.,5
+2020-12-27 21:34:12.192274,who do i talk to in order to get the software to do so and so,Billable work orders are available on request. To get one for your application please contact the sales team at ...sales@company.com.,2
+2020-12-27 21:34:36.936681,what has been fixed in the most recent release,Release and patch notes are available at '.../code_version/release_version/patch_notes'.,3
+2020-12-27 21:34:49.988869,no questions,"Sorry, I do not understand. Is there another way you can ask the question?",-1
+2020-12-27 21:35:31.934140,yes. i want to see what happened when there wasn't a response programmed,"Sorry, I do not understand. Is there another way you can ask the question?",-1
+2020-12-27 21:35:53.216551,what is an illegal argument exception,This is expected to get fixed in a future release. Please reference Jira item abc-1234 for addtional details.,4
+2020-12-27 21:36:11.663573,how can i fix this error,Sorry about that. This is an unknown issue. Please submit a ticket at '.../issue_tracker/website' so that it can be followed up on. ,3
+2020-12-27 21:36:51.280385,what is the status on the Array Index Out of Bounds Exception?,This is expected to get fixed in a future release. Please reference Jira item abc-1234 for addtional details.,1
+2020-12-27 21:37:25.840481,How can we submit an enhancement request,Billable work orders are available on request. To get one for your application please contact the sales team at ...sales@company.com.,1
+2020-12-27 21:37:54.008340,What was fixed in the hotfix I recently heard about?,Release and patch notes are available at '.../code_version/release_version/patch_notes'.,3
+2020-12-27 21:38:04.637287,what is a bug,"Sorry, I do not understand. Is there another way you can ask the question?",-1
+2020-12-27 21:38:32.728762,I'm getting a pop up error. What should I do?,Release and patch notes are available at '.../code_version/release_version/patch_notes'.,5
+2020-12-27 21:39:15.040497,How can i install a new version of the product,Application are updated at '.../deployment/server/product/client'. There is additional documentation about this process at '.../product/deployment'.,3
+2020-12-27 21:39:28.664783,where do i go to update my software,Application are updated at '.../deployment/server/product/client'. There is additional documentation about this process at '.../product/deployment'.,4
+2020-12-27 21:39:57.461467,is there a phone number I can call,"Sorry, I do not understand. Is there another way you can ask the question?",-1
+2020-12-27 21:41:10.112757,Got FileNotFoundException warning while processing my batch. How can I fix it?,This is expected to get fixed in a future release. Please reference Jira item abc-1234 for addtional details.,1
