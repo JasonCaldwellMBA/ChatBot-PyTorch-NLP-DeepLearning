@@ -1,24 +1,6 @@
 {
   "intents": [
     {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "What do I do?"],
-      "responses": [
-        "Hello, thanks for visiting. How can I help?",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting.",
-        "Have a nice day.",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
       "tag": "error",
       "patterns": [
         "Caused By:", 
@@ -27,7 +9,11 @@
         "Array Index Out Of Bounds",
         "Number error",
         "Class Caste something that will vary",
-        "Illegal State at line number 40"
+        "Illegal State at line number 40",
+        "bug",
+        "defect",
+        "error",
+        "exception"
       ],
       "responses": [
         "This has been fixed in version 2020.XX. Please update your application.",
@@ -43,7 +29,11 @@
         "Where can I submit enhancements?",
         "I want a certain feature to work differently.",
         "Add additional product.",
-        "Make this process easier."
+        "Make this process easier.",
+        "improvements",
+        "ideas",
+        "suggestions",
+        "enhancement"
       ],
       "responses": [
         "Users can submit enhancement requests at '.../product_ideas.com'.",
@@ -58,7 +48,10 @@
         "What is in patch 2020.1?",
         "What is in 2020.3",
         "What is in release 2021.1?",
-        "Why should I update?"
+        "Why should I update?",
+        "release notes",
+        "hotfix",
+        "patch notes"
       ],
       "responses": [
         "Release and patch notes are available at '.../code_version/release_version/patch_notes'."
@@ -69,10 +62,21 @@
       "patterns": [
         "Where do deployments happen?",
         "How can I update my application?",
-        "I want the newest version."
+        "I want the newest version.",
+        "deployment",
+        "update",
+        "installation"
       ],
       "responses": [
         "Application are updated at '.../deployment/server/product/client'. There is additional documentation about this process at '.../product/deployment'."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting. Type 'quit' to exit.",
+        "Have a nice day. Type 'quit' to exit."
       ]
     }
   ]

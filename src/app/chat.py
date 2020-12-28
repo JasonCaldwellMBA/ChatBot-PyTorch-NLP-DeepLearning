@@ -4,6 +4,8 @@ import torch
 from src.features.build_features import bag_of_words, tokenize
 from src.models.predict_model import NeuralNet
 from os.path import dirname as dir
+from datetime import datetime
+import csv
 
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
@@ -28,12 +30,15 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
+response_feedback = []
 bot_name = "Helper"
-print("Let's chat! Type 'quit' to exit.")
+print(f"{bot_name}: Hello, how can I help you?")
 while True:
     sentence = input('You: ')
     if sentence.lower() == "quit":
         break
+
+    question = sentence
 
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
@@ -50,7 +55,18 @@ while True:
     if probablility.item() > 0.75:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                response = random.choice(intent['responses'])
+                print(f"{bot_name}: {response}")
+        print(f"Feedback: Was this response helpful? 1 = 'Yes, this is what I was looking for!' 2 = 'Yes, but I don't like how this works.' 3 = 'Maybe, I have some instructions to follow.', 4 = 'No, but I found the answer somewhere else.', 5 = 'No, this bot has a lot to learn.'")
+        feedback = input()
     else:
-        print(
-            f"{bot_name}: Sorry, I do not understand. Is there another way you can ask the question?")
+        response = 'Sorry, I do not understand. Is there another way you can ask the question?'
+        print(f"{bot_name}: {response}")
+        feedback = -1
+
+    response_feedback.append([datetime.now(), question, response, feedback])
+
+with open(root + '/data/interim/response_feedback.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for row in response_feedback:
+        writer.writerow(row)
